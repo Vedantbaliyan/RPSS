@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headingbox{
+    padding: 2rem;
+    min-height: 30%;
+    background-color: #081b31;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.name p{
+    font-size: 2rem;
+}
+.choicebox{
+    display: flex;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 4rem;
+}
+.choice img{
+    height: 90%;
+    width: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.choice:hover{
+    background-color: #081b31;
+}
+.msgbox{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.parabox1 p{
+    font-size: 2.7rem;
+}
+.parabox2 p{
+    font-size: 2.7rem;
+}
+.movebox{
+    width: 20%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem;
+    color: white;
+    background-color: #081b31;
+    border-radius: 8px;
+}
+.footerbox{
+    width: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.footerbox p{
+    font-size: 2rem;
+}
